@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label3">
+    <behaviour delay="0" duration="10000" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="progressBar">
+    <behaviour delay="0" duration="10000" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label">
+    <behaviour delay="0" duration="10000" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="labelAlt">
+    <behaviour delay="0" duration="10000" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image">
+    <behaviour delay="0" duration="10000" initialOpacity="1" opacity="0.3" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

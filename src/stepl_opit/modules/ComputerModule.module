@@ -1,0 +1,13 @@
+{
+  "props": {
+    "singleton": true
+  },
+  "components": {
+    "script": {
+      "type": "script\\MacroScript",
+      "x": 192,
+      "y": 96,
+      "props": {}
+    }
+  }
+}

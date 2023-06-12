@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainPage">
+    <method name="doButtonAltClickLeft">
+      <message kind="WARNING" kind-type="string" value="Вставьте диск в дисковод D: " value-type="string" wait="1" wait-type=""/>
+    </method>
+  </class>
+</root>

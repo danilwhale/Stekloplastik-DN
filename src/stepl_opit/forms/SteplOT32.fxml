@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382" prefWidth="560" styleClass="">
+  <children>
+    <VBox alignment="TOP_LEFT" focusTraversable="false" id="vbox" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="384" prefWidth="560" spacing="0" styleClass="">
+      <children>
+        <Button alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="0" layoutY="0" prefHeight="16" prefWidth="560" styleClass="button " text=".." textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS" size="12"/>
+          </font>
+        </Button>
+        <Button alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="0" layoutY="32" prefHeight="16" prefWidth="560" styleClass="button " text="SYSTEM32" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS" size="12"/>
+          </font>
+        </Button>
+        <Button alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="0" layoutY="64" prefHeight="16" prefWidth="560" styleClass="button " text="SYSTEM.INI" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/file.png" id="data-buttonAlt" visible="1"/>
+        <Button alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="0" layoutY="96" prefHeight="16" prefWidth="560" styleClass="button " text="NOTEPAD.EXE" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/file.png" id="data-button" visible="1"/>
+        <Button alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="0" layoutY="128" prefHeight="16" prefWidth="560" styleClass="button " text="STEPLINIT.EXE" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/file.png" id="data-button3" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/folder.png" id="data-button4" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/up.png" id="data-button5" visible="1"/>
+      </children>
+    </VBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-vbox" visible="1"/>
+  </children>
+</AnchorPane>

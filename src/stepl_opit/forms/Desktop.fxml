@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600" prefWidth="800" styleClass="#desktop_bg ">
+  <children>
+    <Panel backgroundColor="#8099ff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="spusk_2" layoutX="0" layoutY="192" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="376" prefWidth="272" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="admin_img" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="80">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-admin_img" image=".data/img/user.png" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="admin_name" layoutX="104" layoutY="24" prefHeight="35" prefWidth="144" styleClass="label " text="Администратор" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS Bold Italic" size="18"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-admin_name" visible="1"/>
+        <Panel backgroundColor="#6680e6" borderColor="#c0c0c0" borderRadius="16" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="programi" layoutX="8" layoutY="96" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="208" prefWidth="256" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="60" prefHeight="80" prefWidth="224" styleClass="label " text="у вас нету программ хдддд" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+              <font>
+                <Font name="Comic Sans MS Bold Italic" size="24"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="1" id="data-programi" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="shutdown" layoutX="144" layoutY="320" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="112">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data clickImage=".data/img/shutdown_pressed.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/shutdown_hover.png" id="data-shutdown" image=".data/img/shutdown.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#ffffcc" borderColor="#e6e6b3" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="akno" layoutX="136" layoutY="80" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="408" prefWidth="560" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <Panel backgroundColor="#8099ff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="akno_bar" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="560" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children/>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="1" id="data-akno_bar" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="akno_close" layoutX="528" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data clickImage=".data/img/close_p.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/close_h.png" id="data-akno_close" image=".data/img/close.png" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="akno_title" layoutX="40" layoutY="0" prefHeight="32" prefWidth="232" styleClass="label " text="акно" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS Bold Italic" size="16"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-akno_title" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="akno_icon" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-akno_icon" image=".data/img/steklopaketopitlogo.png" visible="1"/>
+        <FragmentPane alignment="CENTER" focusTraversable="false" id="akno_vnutri" layoutX="0" layoutY="32" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="376" prefWidth="560" spacing="0" styleClass="fragment-pane "/>
+        <Data content="Protos" cursor="DEFAULT" enabled="1" id="data-akno_vnutri" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="600" id="desktop_bg" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="800">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel_pizdi" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-desktop_bg" image=".data/img/desktop.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-spusk_2" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-akno" visible=""/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="nash_calculator" layoutX="16" layoutY="16" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-nash_calculator" image=".data/img/nash_calculyator.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="72" prefHeight="72" prefWidth="104" styleClass="label " text="наш компьютер" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+      <font>
+        <Font name="Comic Sans MS Bold Italic" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <ImageViewEx autoSize="false" background="#ff80c000" centered="false" focusTraversable="false" height="32" id="image" layoutX="136" layoutY="656" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/cursor.png" cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/cursor2.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image4" layoutX="712" layoutY="440" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/recycle_bin.png" visible="1"/>
+    <LabelEx alignment="TOP_CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="696" layoutY="496" prefHeight="72" prefWidth="104" styleClass="label " text="помойка" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+      <font>
+        <Font name="Comic Sans MS Bold Italic" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <Panel backgroundColor="#8099ff" borderColor="#4d66cc" borderRadius="0" borderStyle="SOLID" borderWidth="2" focusTraversable="false" id="panel_pizdi" layoutX="-8" layoutY="568" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="36" prefWidth="816" styleClass="" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image3" layoutX="736" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="spusk" layoutX="8" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="88">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data clickImage=".data/img/spusk_pressed.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/spusk_hover.png" id="data-spusk" image=".data/img/spusk.png" tooltipText="путь в ад" visible="1"/>
+        <LabelEx alignment="CENTER_RIGHT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="752" layoutY="0" prefHeight="16" prefWidth="48" styleClass="label " text="00:00" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS Bold Italic" size="16"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="imageAlt" layoutX="736" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="10">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/separator_panel.png" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/separator_panel_bg.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="image5" layoutX="24" layoutY="152" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/ishak.png" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="0" layoutY="192" prefHeight="72" prefWidth="104" styleClass="label " text="ишак" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="true">
+      <font>
+        <Font name="Comic Sans MS Bold Italic" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+  </children>
+</AnchorPane>

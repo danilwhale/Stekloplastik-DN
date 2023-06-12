@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Desktop">
+    <method name="doSpuskClickL">
+      <elementToggle object="panelAlt" object-type="object"/>
+    </method>
+  <method name="doShutdownClickL">
+      <applicationShutdown/>
+    </method>
+  <method name="doAkno_closeClickLeft">
+      <elementToggle object="akno" object-type="object"/>
+    </method>
+  
+  <method name="doSpuskClickLeft">
+      <elementToggle object="spusk_2" object-type="object"/>
+    </method>
+  <method name="doShutdownClickLeft">
+      <applicationShutdown/>
+    </method>
+  </class>
+</root>

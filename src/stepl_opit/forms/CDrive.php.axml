@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="CDrive">
+    
+  <method name="doButton3Click">
+      <message kind="ERROR" kind-type="string" value="Не найдена программа для редактирования нашего файла" value-type="string" wait="1" wait-type=""/>
+    </method>
+  <method name="doButtonClick">
+      <message kind="ERROR" kind-type="string" value="у вас нет программ хддддд" value-type="string" wait="1" wait-type=""/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="SteplOT32">
+    <method name="doButtonClick">
+      <message kind="ERROR" kind-type="string" value="Не найдена программа для редактирования нашего файла" value-type="string" wait="1" wait-type=""/>
+    </method>
+  <method name="doButton3Click">
+      <message kind="ERROR" kind-type="string" value="Не найдена программа для редактирования нашего файла" value-type="string" wait="1" wait-type=""/>
+    </method>
+  <method name="doButtonAltClick">
+      <message kind="ERROR" kind-type="string" value="Не найдена программа для редактирования нашего файла" value-type="string" wait="1" wait-type=""/>
+    </method>
+  <method name="doButton4Click">
+      <message kind="ERROR" kind-type="string" value="СИСТЕМА ЗАЩИТЫ ФАЙЛОВ: Обнаружена подозрительная попытка входа. Выключение ОС после нажатия ОК" value-type="string" wait="1" wait-type=""/>
+      <applicationShutdown/>
+    </method>
+    
+  </class>
+</root>

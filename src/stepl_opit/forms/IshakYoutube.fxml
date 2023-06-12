@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352" prefWidth="560" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/ubyb.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="0" id="label" layoutX="48" layoutY="16" prefHeight="16" prefWidth="96" styleClass="label " text="YouBub" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="136" layoutY="8" prefColumnCount="12" prefHeight="32" prefWidth="256" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="400" layoutY="8" prefHeight="32" prefWidth="32" styleClass="button " text="&#128269;" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="488" layoutY="8" prefHeight="32" prefWidth="64" styleClass="button " text="Войти" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="rect" layoutX="0" layoutY="0" opacity="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="560"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="8" layoutY="56" prefHeight="288" prefWidth="544" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="344" prefWidth="384" styleClass="">
+          <children>
+            <WebView focusTraversable="true" id="portal_radio" layoutX="0" layoutY="0" prefHeight="104" prefWidth="184"/>
+            <Data contextMenuEnabled="1" cursor="DEFAULT" enabled="1" id="data-portal_radio" url="https://www.youtube.com/embed/QLyhfakB-QY" visible="1"/>
+            <WebView focusTraversable="true" id="browser" layoutX="200" layoutY="0" prefHeight="104" prefWidth="184"/>
+            <Data contextMenuEnabled="1" cursor="DEFAULT" enabled="1" id="data-browser" url="https://www.youtube.com/embed/NH2AFSvoXUM" visible="1"/>
+            <WebView focusTraversable="true" id="browserAlt" layoutX="0" layoutY="120" prefHeight="104" prefWidth="184"/>
+            <Data contextMenuEnabled="1" cursor="DEFAULT" enabled="1" id="data-browserAlt" url="https://www.youtube.com/embed/JD5Roy7SCWo" visible="1"/>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
+  </children>
+</AnchorPane>

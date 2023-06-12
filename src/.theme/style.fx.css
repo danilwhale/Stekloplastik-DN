@@ -1,0 +1,5 @@
+/* JavaFX CSS Style with -fx- prefix */
+#desktop_bg
+{
+    -fx-background-image: url(".data/img/desktop.png");
+}

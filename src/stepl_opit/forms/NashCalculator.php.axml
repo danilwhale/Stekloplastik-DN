@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="NashCalculator">
+    <method name="doFileClickLeft">
+      <showFormAndWait form="File" form-type="form"/>
+    </method>
+  </class>
+</root>
